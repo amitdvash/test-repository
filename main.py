@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import requests
 # Load environment variables from .env file
 load_dotenv()
-
+##
 api_key = os.getenv("API_KEY")
 debug_mode = os.getenv("DEBUG")
 env = os.getenv("ENV")
